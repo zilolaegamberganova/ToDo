@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Lab - Task Manager</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="top-header">
+            <div class="logo-area">
+                <span class="v-letter">v</span>
+                <span class="logo-text">Vista Lab</span>
+            </div>
+            <div class="profile-area">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="Profile" class="profile-img">
+            </div>
+        </header>
+
+        <div class="main-card-container">
+            
+            <!-- Welcome Title -->
+            <h1 class="welcome-title">
+                <span class="greeting-part">Hello, Aqeel ,</span> 
+                <span class="action-part">Start planning today</span>
+            </h1>
+
+            <div class="figma-layout-grid">
+                
+                <div class="calendar-column">
+                    <div class="calendar-card">
+                        <div class="calendar-header-top">
+                            <h2>Sunday</h2>
+                            <span class="date-str">04, April 2024</span>
+                        </div>
+                        <div class="calendar-month">April</div>
+                        <div class="calendar-table">
+                            <div class="weekdays">
+                                <span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
+                            </div>
+                            <div class="days">
+<span class="dark-pill">14</span><span>1</span><span>2</span><span class="active-red">3</span><span>4</span><span>5</span><span>6</span><span>7</span>                                <span class="dark-pill">15</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span class="active-red">13</span>
+                                <span class="dark-pill">16</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span class="active-red">20</span>
+                                <span class="dark-pill">17</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span class="active-red">27</span>
+                                <span class="dark-pill">18</span><span>29</span><span>30</span><span>1</span><span>2</span><span>3</span><span class="active-red">4</span>
+                                <span class="dark-pill">19</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-column">
+                    <div class="controls-search-row">
+                        <div class="inputs-group">
+                            <input type="text" id="taskTitle" placeholder="Type Title Of Task">
+                            <input type="text" id="taskDetail" placeholder="Detail Of Your Task">
+                            <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <div class="filters-search-group">
+                            <button class="filter-btn">By category <i class="fa-solid fa-chevron-down"></i></button>
+                            <button class="filter-btn">By priority <i class="fa-solid fa-chevron-down"></i></button>
+                            <div class="search-box">
+                                <input type="text" placeholder="Search by name">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tasks-area">
+                        <div class="tasks-grid">
+                            <div class="task-card">
+                                <div class="task-content">
+                                    <h3>Learn Javascript</h3>
+                                    <p>Master the language powering the modern web.</p>
+                                    <div class="task-date"><strong>Start date :</strong> 07-07-2023</div>
+                                </div>
+                                <div class="task-actions">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </div>
+                            </div>
+                            <div class="task-card">
+                                <div class="task-content">
+                                    <h3>Learn Javascript</h3>
+                                    <p>Master the language powering the modern web.</p>
+                                    <div class="task-date"><strong>Start date :</strong> 07-07-2023</div>
+                                </div>
+                                <div class="task-actions">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </div>
+                            </div>
+                            <div class="task-card">
+                                <div class="task-content">
+                                    <h3>Learn Javascript</h3>
+                                    <p>Master the language powering the modern web.</p>
+                                    <div class="task-date"><strong>Start date :</strong> 07-07-2023</div>
+                                </div>
+                                <div class="task-actions">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </div>
+                            </div>
+                            <div class="task-card">
+                                <div class="task-content">
+                                    <h3>Learn Javascript</h3>
+                                    <p>Master the language powering the modern web.</p>
+                                    <div class="task-date"><strong>Start date :</strong> 07-07-2023</div>
+                                </div>
+                                <div class="task-actions">
+                                    <i class="fa-regular fa-circle-check"></i>
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="load-more-container">
+                            <button class="load-more-btn">Load more</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bottom-stats-row">
+                <div class="stat-box completed">
+                    <span class="stat-label">COMPLETED TASKS</span>
+                    <span class="stat-number">04</span>
+                </div>
+                <div class="stat-box pending">
+                    <span class="stat-label">PENDING TASKS</span>
+                    <span class="stat-number">15</span>
+                </div>
+                <div class="stat-box total-created">
+                    <div class="stat-info">
+                        <span class="stat-title-small">Tasks created</span>
+                        <span class="stat-big-number">1,500</span>
+                    </div>
+                    <div class="active-users-section">
+                        <span class="active-users-text"><strong>25k+</strong> Active Users</span>
+                        <div class="user-avatars">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=50&auto=format&fit=crop&q=80" alt="user">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&auto=format&fit=crop&q=80" alt="user">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=50&auto=format&fit=crop&q=80" alt="user">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&auto=format&fit=crop&q=80" alt="user">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-logo">
+                <span class="v-letter sm">v</span>
+                <span class="footer-logo-text">Vista Lab</span>
+            </div>
+            <div class="footer-copyright">
+                © 2024 Aqeel Shahzad. All Rights Reserved.
+            </div>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
