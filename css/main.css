@@ -597,3 +597,24 @@ justify-content: center;
     background: #d9534f;
     color: #fff;
 }
+.task-actions img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.footer-socials img.social-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.filter-btn img {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+    margin-left: 8px;
+}
+.search-box img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
