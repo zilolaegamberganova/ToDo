@@ -12,4 +12,4 @@ A modern and user-friendly To-Do list web application project.
 - `images/` — Icons and images folder
 
 ## 💻 How to Open
-- ##Click Here : https://
+- Click here to see the website : <href>https://zilolaegamberganova.github.io/ToDo/</href>
